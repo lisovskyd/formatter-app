@@ -1,0 +1,107 @@
+.app {
+  text-align: center;
+}
+
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app_wrapper {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* formatters */
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.cursive {
+  font-style: oblique;
+}
+
+/* block formatter */
+
+.b-formatter {
+  display: flex;
+  height: 20px;  
+}
+
+.text-formatter {
+  display: flex;
+  margin: 0 auto; 
+  border-radius: 10px 0 0 0;
+}
+
+.formatter-btn {
+  width: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.formatter-btn:hover {
+  background-color: rgb(100, 194, 223);
+  font-weight: 600
+}
+
+/* text area */
+
+.text-area-wrapper {
+  font-size: 0;
+}
+
+.text-area {
+  height: 200px;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* block wrods synonyms */
+
+.b-synonyms-wrapper {
+  border: 1px solid #000;
+  font-size: 18px;
+}
+
+.b-synonyms-wrapper h6 {
+  margin: 10px 0;
+}
+
+.b-synonyms {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-area span,
+.synonym {
+  margin-right: 3px;
+}
+
+.synonym {
+  border: 1px solid rgb(103, 156, 192);
+  border-radius: 5px;
+  margin: 3px;
+  padding: 0 2px;
+  cursor: pointer;
+}
